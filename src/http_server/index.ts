@@ -10,7 +10,7 @@ import {
 } from "../websocket_server/types";
 import { v4 as uuidv4 } from "uuid";
 
-export const HTTP_PORT = 8181;
+export const HTTP_PORT = 3000;
 
 export const httpServer = createServer(function (req, res) {
   const __dirname = path.resolve(path.dirname(""));
